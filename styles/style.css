@@ -173,3 +173,42 @@ section {
 }
 
 /* =========== What i do Section Styles =========== */
+
+.what-i-do {
+  margin-top: 130px;
+}
+
+.skill-container {
+  display: flex;
+  gap: 24px;
+}
+
+.skill {
+  cursor: pointer;
+  background: #ffffff;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.skill:hover {
+  box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.06);
+}
+
+.skill-title {
+  font-weight: 700;
+  font-size: 20px;
+  color: #181818;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.skill-description {
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+}
+
+/* =========== Resume Section Styles =========== */
+.resume {
+}
