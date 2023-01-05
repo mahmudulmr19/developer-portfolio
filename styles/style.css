@@ -121,7 +121,7 @@ nav li {
 
 /* =========== Main Section Styles =========== */
 main {
-  max-width: 1140px;
+  max-width: 1180px;
   margin: 0 auto;
 }
 
@@ -141,6 +141,7 @@ section {
   font-weight: 400;
   font-size: 18px;
   color: #757575;
+  line-height: 1.5;
   margin-bottom: 30px;
 }
 
@@ -255,5 +256,40 @@ section {
 /* =========== Contact Section Styles =========== */
 
 .contact {
+  display: flex;
+  background: #fff8f3;
+  gap: 100px;
+  padding: 120px 100px;
+}
+
+.contact .section-title {
+  text-align: left;
+}
+
+.contact a {
+  margin-left: 5px;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
   width: 100%;
+  border: none;
+
+  margin-bottom: 24px;
+  padding: 18px 30px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+textarea {
+  resize: none;
+}
+
+input:focus {
+  outline: 1px solid #fd6e0a;
+}
+
+textarea:focus {
+  outline: 1px solid #fd6e0a;
 }
