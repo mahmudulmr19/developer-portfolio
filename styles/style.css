@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* =============== Most Repeat ================ */
+.text-orange {
+  color: #fd6e0a;
+}
+
+.btn-primary {
+  background: #fd6e0a;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 0;
+  padding: 18px 35px 19px 36px;
+  cursor: pointer;
+}
+
+/* =============== Header and Navigation Styles ================ */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 10%;
+}
+
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  font-size: 20px;
+  margin-left: 50px;
+}
