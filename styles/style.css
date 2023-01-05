@@ -28,7 +28,7 @@
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 2% 10%;
+  padding: 2% 8%;
 }
 
 .nav-title {
@@ -46,3 +46,126 @@ nav li {
   font-size: 20px;
   margin-left: 50px;
 }
+
+/* =========== Header Banner Styles =========== */
+
+.header {
+  background: #fff8f3;
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0% 8%;
+}
+
+.banner img {
+  margin-right: -60px;
+}
+
+.banner-sub-title {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 9px;
+}
+
+.banner-title {
+  font-weight: 700;
+  font-size: 80px;
+  color: #181818;
+  margin-bottom: 10px;
+}
+
+.banner-description {
+  font-weight: 400;
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 18px;
+}
+
+.banner button {
+  margin-top: 4px;
+  margin-right: 20px;
+}
+
+.btn-contact i {
+  margin-left: 1px;
+}
+
+.btn-contact {
+  border: 1px solid #fd6e0a;
+  color: #fd6e0a;
+  border-radius: 5px;
+  padding: 18px 35px 19px 36px;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.4s;
+  background: transparent;
+}
+
+.btn-contact:hover {
+  color: #fff8f3;
+  background: #fd6e0a;
+}
+
+/* =========== Main Section Styles =========== */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+section {
+  margin-top: 130px;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+  color: #181818;
+  margin-bottom: 50px;
+}
+
+.section-description {
+  font-weight: 400;
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+/* =========== About Section Styles =========== */
+
+.about {
+  margin-top: 130px;
+  background: #fff8f3;
+  border-radius: 10px;
+  padding: 131px 157px 131px 156px;
+  text-align: center;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-title {
+  font-size: 20px;
+  color: #757575;
+  text-align: center;
+}
+
+.about-description {
+  font-weight: 700;
+  font-size: 20px;
+  color: #474747;
+  text-align: center;
+}
+
+/* =========== What i do Section Styles =========== */
